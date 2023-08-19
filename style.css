@@ -1,0 +1,118 @@
+/* Reset styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Set base font size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Set your base font size */
+    line-height: 1.5;
+}
+
+/* Default styles */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header and navigation */
+header {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Hero section */
+.hero {
+    background-color: #007bff;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 32px;
+}
+
+/* Services, products, and contact sections */
+.services,
+.products,
+.contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services h2,
+.products h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.services ul,
+.products ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li,
+.products li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact section */
+.contact {
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.services li:hover,
+.products li:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.logo {
+    max-width: 200px; /* Adjust the max-width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
