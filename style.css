@@ -58,28 +58,24 @@ nav a {
     font-size: 32px;
 }
 
-/* Services, products, and contact sections */
+/* Services, images, and contact sections */
 .services,
-.products,
 .contact {
     padding: 40px 0;
     text-align: center;
 }
 
-.services h2,
-.products h2 {
+.services h2{
     color: #007bff;
     margin-bottom: 20px;
 }
 
-.services ul,
-.products ul {
+.services ul{
     list-style: none;
     padding: 0;
 }
 
-.services li,
-.products li {
+.services li{
     margin-bottom: 20px;
     padding: 20px;
     background-color: #f1f1f1;
@@ -101,8 +97,7 @@ footer {
     padding: 20px;
     text-align: center;
 }
-.services li:hover,
-.products li:hover {
+.services li:hover{
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -115,4 +110,30 @@ nav {
     display: flex;
     align-items: center;
     margin-top: 10px;
+}
+
+/* ... (previous styles) ... */
+
+/* Style the services section */
+.services {
+    padding: 50px 0;
+    text-align: center;
+    position: relative; /* Add positioning context for descriptions */
+}
+
+/* Images section */
+.images {
+    padding: 40px 0;
+    text-align: center;
+    margin: auto;
+
+
+}
+.image{
+    width: 150px;
+}
+.images h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+    
 }
