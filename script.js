@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Brow Threading": "Brow threading is one of the most precise methods of hair removal, especially in the delicate areas surrounding the eye.",
         "Microdermabrasion": "Microdermabrasion is a mechanical exfoliation treatment that gently sloughs away dead surface skin cells and creates a smoother, softer appearance. It helps thicken your collagen, and improvs overall complexion and gives a more taut texture.",
         "Skin Care Products": "Our products include Lotion, Skin Ceuticals, Face Reality, Eyelash Extensions, Latisse, and European Style Cool Hair Wax Removal",
-        "Injectables": "Our injectables include BOTOX, Dysport, and Fillers."
+        "Injectables": "We offer a variety of cosmetic injectables to smooth skin, lift wrinkles, and even prevent signs of aging."
         ,
         // ... (other service descriptions) ...
 
